@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-generate-file",
+  "name": "@yourbraineatsyou/vite-plugin-generate-file",
   "version": "0.1.1",
   "license": "MIT",
   "description": "Generate extra file to dist folder.",
@@ -11,13 +11,13 @@
     "vite-plugin"
   ],
   "author": "SumyGG Sun <sumyggsun@gmail.com>",
-  "homepage": "https://github.com/sumy7/vite-plugin-generate-file#readme",
+  "homepage": "https://github.com/yourbraineatsyou/vite-plugin-generate-file#readme",
   "bugs": {
-    "url": "https://github.com/sumy7/vite-plugin-generate-file/issues"
+    "url": "https://github.com/yourbraineatsyou/vite-plugin-generate-file/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sumy7/vite-plugin-generate-file.git"
+    "url": "git+https://github.com/yourbraineatsyou/vite-plugin-generate-file.git"
   },
   "exports": {
     ".": {

@@ -1,4 +1,4 @@
-import { readFileSync, writeFile } from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 import { relative, resolve } from 'path'
 import type { Plugin, ResolvedConfig, ViteDevServer } from 'vite'
 import pc from 'picocolors'
@@ -122,13 +122,9 @@ function generateFile(option: NormalizeGenerateFile) {
   const filePath = option.fullPath
   const fileContent = generateContent(option)
   ensureDirectoryExistence(filePath)
-  writeFile(filePath, fileContent, { flag: 'w' }, (error) => {
-    if (error) {
-      throw error
-    }
+  writeFileSync(filePath, fileContent, { flag: 'w' })
 
-    console.log(`Generate File to ${pc.green(filePath)}`)
-  })
+  console.log(`Generate File to ${pc.green(filePath)}`)
 }
 
 /**

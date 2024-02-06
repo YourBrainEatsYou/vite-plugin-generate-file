@@ -48,22 +48,22 @@
     "picocolors": "^1.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.9.0",
-    "@types/ejs": "^3.1.0",
-    "@types/js-yaml": "^4.0.3",
-    "@types/mime-types": "^2.1.1",
-    "@types/node": "^16.9.2",
-    "@typescript-eslint/eslint-plugin": "^4.31.1",
-    "@typescript-eslint/parser": "^4.31.1",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-prettier": "^4.0.0",
+    "@antfu/eslint-config": "^2.6.4",
+    "@types/ejs": "^3.1.5",
+    "@types/js-yaml": "^4.0.9",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.1",
+    "prettier": "^3.2.5",
     "rollup-plugin-string": "^3.0.0",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "unbuild": "^2.0.0",
-    "vite": "^4.5.0"
+    "vite": "^5.0.12"
   }
 }

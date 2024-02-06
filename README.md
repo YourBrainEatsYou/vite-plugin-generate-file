@@ -1,6 +1,6 @@
 # vite-plugin-generate-file
 
-**vite-plugin-generate-file** is a vite plugin which generate static file and write them to dist folder after packaging.
+**vite-plugin-generate-file** is a vite plugin which generate static files and writes them to dist folder after packaging.
 
 ## Usage
 
